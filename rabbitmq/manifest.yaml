@@ -43,7 +43,7 @@ spec:
         image: rabbitmq:3
         envFrom:
         - secretRef:
-            name: shipping
+            name: rabbitmq
 
 ---
 apiVersion: v1
