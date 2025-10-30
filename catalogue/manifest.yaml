@@ -54,7 +54,7 @@ metadata:
     tier: app
 spec:
   selector:
-    component: mongodb
+    component: catalogue
     project: roboshop
     tier: app
   ports:
